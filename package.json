@@ -1,7 +1,7 @@
 {
   "name": "react-native-amount-input",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "React Native JS-only amount (decimal) input component",
   "keywords": [
     "react native",
     "amount",
