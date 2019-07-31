@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   InputAccessoryView,
   InputAccessoryViewProps,
@@ -7,18 +7,18 @@ import {
   TouchableHighlight,
   View,
   Dimensions,
-} from 'react-native';
+} from 'react-native'
 
-const {width: SCREEN_WIDTH} = Dimensions.get('window');
-const BUTTON_PADDING_VERTICAL = 8;
-const BUTTON_MARGIN_HORIZONTAL = 6;
+const {width: SCREEN_WIDTH} = Dimensions.get('window')
+const BUTTON_PADDING_VERTICAL = 8
+const BUTTON_MARGIN_HORIZONTAL = 6
 
-const BUTTON_SYMBOLS = ['C', '+/-'] as const;
+const BUTTON_SYMBOLS = ['C', '+/-'] as const
 
-export type AmountInputAccessoryViewSymbol = (typeof BUTTON_SYMBOLS)[number];
+export type AmountInputAccessoryViewSymbol = (typeof BUTTON_SYMBOLS)[number]
 
 export interface AmountInputAccessoryViewProps extends InputAccessoryViewProps {
-  onSymbolPress: (symbol: AmountInputAccessoryViewSymbol) => void;
+  onSymbolPress: (symbol: AmountInputAccessoryViewSymbol) => void
 }
 
 export const AmountInputAccessoryView: React.FC<
@@ -38,7 +38,7 @@ export const AmountInputAccessoryView: React.FC<
       ))}
     </View>
   </InputAccessoryView>
-);
+)
 
 const styles = StyleSheet.create({
   buttons: {
@@ -69,4 +69,4 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: '400',
   },
-});
+})

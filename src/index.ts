@@ -1,2 +1,2 @@
-export * from './AmountInput';
-export * from './AmountInputAccessoryView';
+export * from './AmountInput'
+export * from './AmountInputAccessoryView'
