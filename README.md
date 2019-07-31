@@ -34,11 +34,9 @@ function MyComponent() {
 }
 ```
 
-## API
+## Props
 
-In addition to the regular `TextInput` props, you can also provide the following props for extra customization:
-
-### Props
+- [Inherited `TextInput` props...](https://facebook.github.io/react-native/docs/textinput.html#props)
 
 - [`currency`](#currency)
 - [`defaultQuantity`](#defaultQuantity)
